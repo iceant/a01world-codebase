@@ -56,6 +56,8 @@ typedef bool aw_bool_t;
 #define AW_UINT32_MAX UINT32_MAX
 #define AW_UINT64_MAX UINT64_MAX
 
+#define AW_SIZE_MAX SIZE_MAX
+
 #else /* __STDC__ defined but not __STD_VERSION__ */
 #error __STDC__ defined but not __STD_VERSION__
 #endif
